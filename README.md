@@ -20,3 +20,7 @@ Learning from Traversy JS Crash Course on YouTube
 * null
 * undefined
 * symbol
+
+### Objects
+
+* Arrays - variables that hold multiple values
