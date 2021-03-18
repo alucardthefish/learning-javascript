@@ -12,3 +12,11 @@ Learning from Traversy JS Crash Course on YouTube
 * `let` and `const` have a block level scope
 * When do we use `let` or `const`? - Always use `const` unless you know you're going to reasign the value
 
+### Data types
+
+* String
+* Numbers
+* Boolean
+* null
+* undefined
+* symbol
