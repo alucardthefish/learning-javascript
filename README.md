@@ -24,3 +24,4 @@ Learning from Traversy JS Crash Course on YouTube
 ### Objects
 
 * Arrays - variables that hold multiple values
+* Object - information structured by attributes or fields
