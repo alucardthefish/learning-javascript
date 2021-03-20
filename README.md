@@ -2,9 +2,9 @@
 
 Learning from Traversy JS Crash Course on YouTube
 
-## Notes from learning process
+## Notes of learning process
 
-* Scripts must be at the end of body
+* Scripts must be at the end of body element
 
 ### Variables
 
