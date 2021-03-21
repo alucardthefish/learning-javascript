@@ -20,9 +20,11 @@ for (let todo of todos) {
 }
 
 // forEach, map, filter
-
+let content = '<h4>Iterating through TODOS</h4>';
 todos.forEach(function(todo) {
     console.log(todo.text);
+    content += `<p>${todo.text}</p>`
+    document.getElementById('iterator').innerHTML = content;
 });
 
 const todoText = todos.map(function(todo) {
