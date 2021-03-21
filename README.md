@@ -25,3 +25,28 @@ Learning from Traversy JS Crash Course on YouTube
 
 * Arrays - variables that hold multiple values
 * Object - information structured by attributes or fields
+
+### Conditionals
+
+* `==` evaluates expression values are equal but not data type equality
+* `===` evaluates expression values and data types are equal
+* `&&` evaluates expressions with AND conditional
+* `||` evaluates expressions with OR conditional
+
+### Functions
+
+There are two types of functions in Javascript:
+
+1. Classic function
+``` 
+function name(params) {
+    ...expresions
+}
+```
+2. Arrow function
+```
+const name = (params) => { 
+    ...expresions 
+}
+```
+
