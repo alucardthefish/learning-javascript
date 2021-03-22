@@ -1,0 +1,18 @@
+
+* {
+    margin: 0;
+    padding: 30px;
+}
+
+
+.outcome {
+    border-radius: 27px;
+    background: #e0aeae;
+    box-shadow:  5px 5px 10px #8b6c6c,
+                 -5px -5px 10px #fff0f0;  
+}
+
+.outcome p {
+    margin: 10px;
+    padding: 10px;
+}
