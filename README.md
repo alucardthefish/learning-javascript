@@ -50,3 +50,41 @@ const name = (params) => {
 }
 ```
 
+### Object OOP
+
+Object Constructor function with attributes and functions as properties 
+
+```
+function ObjectName(attr...) {
+    this.attr1 = ...attr1
+    this.attr2 = ...attr2
+    ...
+    this.attrN = ...attrN
+
+    this.func1 = function() {}
+    ...
+    this.funcN = function() {}
+}
+```
+
+Adding functions using prototype as object's methods
+
+```
+ObjectName.prototype.funcName = function() {}
+```
+
+Objects using classes
+
+```
+class ClasName {
+    constructor(attr...) {
+        this.attr1 = ...attr1
+        this.attr2 = ...attr2
+        ...
+        this.attrN = ...attrN
+    }
+
+    func1() {}
+    ...
+    funcN() {}
+}
