@@ -88,3 +88,13 @@ class ClasName {
     ...
     funcN() {}
 }
+```
+
+### Selectors
+
+* Single element
+    * Old way: ```document.getElementById('idName');```
+    * Modern way: ```document.querySelector('#idName-or-.className-or-tagName');```
+* Multiple elements
+    * Old way: ```document.getElementsByClassName('className');```
+    * Modern way: ```document.querySelectorAll('.className');```
