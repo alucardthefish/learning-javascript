@@ -9,6 +9,12 @@ h2 {
     padding: 15px;
 }
 
+a {
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+}
+
 .outcome {
     margin: 15px;
     padding: 15px;

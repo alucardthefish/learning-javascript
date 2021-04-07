@@ -98,3 +98,33 @@ class ClasName {
 * Multiple elements
     * Old way: ```document.getElementsByClassName('className');```
     * Modern way: ```document.querySelectorAll('.className');```
+
+
+# High Order Functions and Arrays
+
+## forEach
+
+This function allows you to iterate over array objects easily
+
+given an array of companies:
+
+```
+const companies = [
+    {name: "Company One", category: "Finance", start: 1981, end: 2003},
+    {name: "Company Two", category: "Retail", start: 1941, end: 2004},
+    {name: "Company Three", category: "Auto", start: 1891, end: 2010},
+    {name: "Company Four", category: "Technology", start: 1935, end: 2019},
+    {name: "Company Five", category: "Auto", start: 1981, end: 2003},
+    {name: "Company Six", category: "Finance", start: 1981, end: 2003}
+];
+```
+
+Iterating over company elements like this:
+
+```
+companies.forEach((company) => {
+    console.log(company.name);
+});
+```
+
+
