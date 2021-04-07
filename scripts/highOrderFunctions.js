@@ -17,6 +17,22 @@ const ages = [33, 44, 22, 64, 39, 95, 35, 75, 46, 94];
 
 // High order functions
 
+// forEach function
+
 companies.forEach((company) => {
     console.log(company.name);
 });
+
+// filter function
+
+// const applyForRetiring = ages.filter(function(age) {
+//     if (age >= 45) {
+//         return true;
+//     }
+// });
+
+// another way to do the same in one single line using arrow functions
+
+const applyForRetiring = ages.filter(age => age >= 45);
+
+console.log(applyForRetiring);
