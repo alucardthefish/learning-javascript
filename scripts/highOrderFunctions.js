@@ -36,3 +36,8 @@ companies.forEach((company) => {
 const applyForRetiring = ages.filter(age => age >= 45);
 
 console.log(applyForRetiring);
+
+// Filter Auto companies
+
+const autoCompanies = companies.filter(company => company.category === 'Auto');
+console.log(autoCompanies);
