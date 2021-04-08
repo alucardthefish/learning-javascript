@@ -102,7 +102,7 @@ class ClasName {
 
 # High Order Functions and Arrays
 
-## forEach function
+## forEach() function
 
 This function allows you to iterate over array objects easily
 
@@ -127,7 +127,7 @@ companies.forEach((company) => {
 });
 ```
 
-## filter function
+## filter() function
 
 This function allows us to create filters to discriminate data elements
 
@@ -142,3 +142,4 @@ Lets make a filter for showing only ages that are permited to get retired based 
 ```
 const applyForRetiring = ages.filter(age => age >= 45);
 ```
+
