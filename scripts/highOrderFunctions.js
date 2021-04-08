@@ -41,3 +41,17 @@ console.log(applyForRetiring);
 
 const autoCompanies = companies.filter(company => company.category === 'Auto');
 console.log(autoCompanies);
+
+
+// map function
+
+// Create array of companies with a format 'name [start - end]'
+
+const companiesFormatted = companies.map(function(company) {
+    return `${company.name} [${company.start} - ${company.end}]`;
+});
+
+console.log(companiesFormatted);
+
+const agesSquare = ages.map(age => Math.sqrt(age));
+console.log(agesSquare);

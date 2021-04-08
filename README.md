@@ -38,13 +38,13 @@ Learning from Traversy JS Crash Course on YouTube
 There are two types of functions in Javascript:
 
 1. Classic function
-``` 
+```javascript 
 function name(params) {
     ...expresions
 }
 ```
 2. Arrow function
-```
+```js
 const name = (params) => { 
     ...expresions 
 }
@@ -54,7 +54,7 @@ const name = (params) => {
 
 Object Constructor function with attributes and functions as properties 
 
-```
+```js
 function ObjectName(attr...) {
     this.attr1 = ...attr1
     this.attr2 = ...attr2
@@ -69,13 +69,13 @@ function ObjectName(attr...) {
 
 Adding functions using prototype as object's methods
 
-```
+```js
 ObjectName.prototype.funcName = function() {}
 ```
 
 Objects using classes
 
-```
+```js
 class ClasName {
     constructor(attr...) {
         this.attr1 = ...attr1
@@ -108,7 +108,7 @@ This function allows you to iterate over array objects easily
 
 given an array of companies:
 
-```
+```js
 const companies = [
     {name: "Company One", category: "Finance", start: 1981, end: 2003},
     {name: "Company Two", category: "Retail", start: 1941, end: 2004},
@@ -121,7 +121,7 @@ const companies = [
 
 Iterating over company elements like this:
 
-```
+```js
 companies.forEach((company) => {
     console.log(company.name);
 });
@@ -133,13 +133,22 @@ This function allows us to create filters to discriminate data elements
 
 Given an array of ages:
 
-```
+```js
 const ages = [33, 44, 22, 64, 39, 95, 35, 75, 46, 94];
 ```
 
 Lets make a filter for showing only ages that are permited to get retired based on and age of 42
 
-```
+```js
 const applyForRetiring = ages.filter(age => age >= 45);
 ```
 
+## map() function
+
+The map function allows us to create new arrays from a current array.
+
+Lets create a new array with the square of ages
+
+```js
+const agesSquare = ages.map(age => Math.sqrt(age));
+```
