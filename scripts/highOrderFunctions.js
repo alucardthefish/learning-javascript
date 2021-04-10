@@ -55,3 +55,19 @@ console.log(companiesFormatted);
 
 const agesSquare = ages.map(age => Math.sqrt(age));
 console.log(agesSquare);
+
+
+
+// sort function
+
+// Create an array of sorted companies by start year
+
+const sortedCompanies = companies.sort(function(c1, c2) {
+    if (c1.start > c2.start) {
+        return 1;
+    } else {
+        return -1;
+    }
+});
+
+console.log(sortedCompanies);

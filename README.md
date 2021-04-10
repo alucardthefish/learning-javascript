@@ -152,3 +152,25 @@ Lets create a new array with the square of ages
 ```js
 const agesSquare = ages.map(age => Math.sqrt(age));
 ```
+
+## sort() function
+
+This function permits to create a new array with their elements sorted by some value especification
+
+Lets create an array of sorted companies by start year
+
+```js
+const sortedCompanies = companies.sort(function(c1, c2) {
+    if (c1.start > c2.start) {
+        return 1;
+    } else {
+        return -1;
+    }
+});
+```
+
+one line version:
+
+```js
+const sortedCompanies = companies.sort((a, b) => (a.start > b.start ? 1 : -1));
+```
