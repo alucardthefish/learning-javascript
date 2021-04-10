@@ -155,7 +155,7 @@ const agesSquare = ages.map(age => Math.sqrt(age));
 
 ## sort() function
 
-This function permits to create a new array with their elements sorted by some value especification
+This function Sorts an array in place. This method mutates the array and returns a reference to the same array.
 
 Lets create an array of sorted companies by start year
 

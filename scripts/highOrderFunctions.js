@@ -71,3 +71,8 @@ const sortedCompanies = companies.sort(function(c1, c2) {
 });
 
 console.log(sortedCompanies);
+
+// Sort ages
+
+const sortAges = ages.sort((a, b) => (a - b));
+console.log(sortAges);
