@@ -174,3 +174,15 @@ one line version:
 ```js
 const sortedCompanies = companies.sort((a, b) => (a.start > b.start ? 1 : -1));
 ```
+
+## reduce() function
+
+This function accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array. Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function
+
+Lets sum up all the companies years of activity
+
+```js
+const totalYears = companies.reduce((total, company) => {
+    return total + (company.end - company.start);
+}, 0);
+```

@@ -76,3 +76,12 @@ console.log(sortedCompanies);
 
 const sortAges = ages.sort((a, b) => (a - b));
 console.log(sortAges);
+
+
+// Reduce function
+
+const totalYears = companies.reduce((total, company) => {
+    return total + (company.end - company.start);
+}, 0);
+
+console.log(totalYears);
