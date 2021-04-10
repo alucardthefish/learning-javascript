@@ -129,7 +129,7 @@ companies.forEach((company) => {
 
 ## filter() function
 
-This function allows us to create filters to discriminate data elements
+This function allows us to create filters to discriminate data elements. Returns the elements of an array that meet the condition specified in a callback function.
 
 Given an array of ages:
 
@@ -145,7 +145,7 @@ const applyForRetiring = ages.filter(age => age >= 45);
 
 ## map() function
 
-The map function allows us to create new arrays from a current array.
+The map function allows us to create new arrays from a current array. Calls a defined callback function on each element of an array, and returns an array that contains the results.
 
 Lets create a new array with the square of ages
 
