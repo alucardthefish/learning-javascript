@@ -186,3 +186,11 @@ const totalYears = companies.reduce((total, company) => {
     return total + (company.end - company.start);
 }, 0);
 ```
+
+
+# Async JS
+
+## Callbacks
+
+Callbacks functions are passed to a function that is not synchronous to be executed when its processing is completed
+
