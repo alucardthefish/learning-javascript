@@ -197,3 +197,7 @@ Callbacks functions are passed to a function that is not synchronous to be execu
 ## Promises
 
 Promise is an object with a callback used to initialize the promise. This callback is passed two arguments: a resolve callback used to resolve the promise with a value or the result of another promise, and a reject callback used to reject the promise with a provided reason or error.
+
+### Promise.all
+
+Creates a Promise that is resolved with an array of results when all of the provided Promises resolve, or rejected when any Promise is rejected.
