@@ -1,0 +1,7 @@
+Some r3sources for keep learning:
+
+1. Ajax course
+https://www.youtube.com/watch?v=82hnvUYY6QA
+
+2. Fetch API
+https://www.youtube.com/watch?v=Oive66jrwBs
