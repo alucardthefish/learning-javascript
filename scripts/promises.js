@@ -16,7 +16,7 @@ function getPosts() {
     }, 1000);
 }
 
-function createPost(post) {
+function createPost(post, secs = 4000) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             posts.push(post);
@@ -28,7 +28,7 @@ function createPost(post) {
             } else {
                 reject('Error: Something went wrong!');
             }
-        }, 4000);
+        }, secs);
     });
 }
 getPosts();
@@ -42,3 +42,12 @@ const promise3 = new Promise((resolve, reject) => setTimeout(resolve, 2000, 'Goo
 const promise4 = fetch('https://jsonplaceholder.typicode.com/users').then(res => res.json());
 
 Promise.all([promise1, promise2, promise3, promise4]).then(values => console.log(values));
+
+// Async /  Await
+
+async function init() {
+    await createPost({ title: 'Async n Await post', body: 'This is an async and await post' }, 7000);
+    getPosts();
+}
+
+init();

@@ -201,3 +201,13 @@ Promise is an object with a callback used to initialize the promise. This callba
 ### Promise.all
 
 Creates a Promise that is resolved with an array of results when all of the provided Promises resolve, or rejected when any Promise is rejected.
+
+## Async & Await
+
+This is a fancy way of handling promises. Instead of using then() method of Promise, it can be achieved by the following sintax
+
+```js
+async function funcName() {
+    await promiseFunction;
+}
+```
