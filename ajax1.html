@@ -8,6 +8,10 @@
 </head>
 <body>
     <button id="button">Get Text File</button>
+    <br><br>
+    Text:
+    <br>
+    <div id="text"></div>
     
 
     <script>
@@ -27,8 +31,11 @@
             // }
 
             xhr.onreadystatechange = function() {
+                const textResultElement = document.querySelector('#text');
                 if (this.readyState == 4 && this.status == 200) {
-                    console.log(this.responseText);
+                    textResultElement.innerHTML = this.responseText;
+                } else {
+                    textResultElement.innerHTML = 'Something went wrong: file not found';
                 }
             }
 
