@@ -211,3 +211,27 @@ async function funcName() {
     await promiseFunction;
 }
 ```
+
+# AJAX
+
+Ajax: short for Asynchronous JavaScript and XML, is a set of web development techniques using many web technologies on the client-side to create asynchronous web applications. With Ajax, web applications can send and retrieve data from a server asynchronously (in the background) without interfering with the display and behaviour of the existing page. By decoupling the data interchange layer from the presentation layer, Ajax allows web pages and, by extension, web applications, to change content dynamically without the need to reload the entire page.[3] In practice, modern implementations commonly utilize JSON instead of XML.
+
+Ajax is not a single technology, but rather a group of technologies. HTML and CSS can be used in combination to mark up and style information. The webpage can then be modified by JavaScript to dynamically display—and allow the user to interact with—the new information. The built-in XMLHttpRequest object, or since 2017 the new fetch function within JavaScript, is commonly used to execute Ajax on webpages, allowing websites to load content onto the screen without refreshing the page. Ajax is not a new technology, or a different language, just existing technologies used in new ways.
+
+## The XMLHttpRequest Object
+
+The XMLHttpRequest object can be used to request data from a web server.
+
+The XMLHttpRequest object is a developers dream, because you can:
+
+* Update a web page without reloading the page
+* Request data from a server - after the page has loaded
+* Receive data from a server  - after the page has loaded
+* Send data to a server - in the background
+
+the readyState Values are:
+* 0: request not initialized
+* 1: server connection established
+* 2: request received
+* 3: processing request
+* 4: request finished and response is ready
