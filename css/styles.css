@@ -114,3 +114,15 @@
     background: rgb(42, 224, 5);
     color: black;
   }
+
+  a {
+    display: inline-block;
+    width: auto;
+    padding: 5px 15px;
+    border: 0;
+    text-decoration: none;
+    background: rgb(63, 13, 110);
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
