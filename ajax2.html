@@ -8,14 +8,14 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
     <style>
-        .user {
+        #user {
             display: flex;
-            background: #f4f4f4;
+            background: #e4a2a2;
             padding: 10px;
             margin-bottom: 10px;
         }
 
-        .user ul {
+        #user ul {
             list-style: none;
         }
     </style>
@@ -37,7 +37,7 @@
         <h1>User</h1>
         <div id="user"></div>
         <h1>Users</h1>
-        <div class="px-2 py-2 mx-2 my-4 bg-purple-300" id="users"></div>
+        <div class="grid grid-cols-1 md:grid-cols-3 px-2 py-2 mx-2 my-4 bg-purple-300" id="users"></div>
     </div>
 
     <script>
