@@ -9,7 +9,11 @@ function getPosts() {
     setTimeout(() => {
         let output = '';
         posts.forEach((post, index) => {
-            output += `<li>${post.title}</li>`
+            //output += `<li>${post.title}</li>`
+            output += `<div class="px-5 py-5 mx-auto max-w-sm bg-purple-100 rounded-xl shadow-md">
+                <p class="text-md text-purple-900 bold">${post.title}</p>
+                <p class="text-sm text-purple-600">${post.body}</p>
+            </div>`;
         });
         let container = document.querySelector('#container')
         container.innerHTML = output;
