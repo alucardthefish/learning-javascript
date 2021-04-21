@@ -35,15 +35,17 @@ function getPosts() {
     fetch('https://jsonplaceholder.typicode.com/posts')
     .then(res => res.json())
     .then(data => {
-        let output = '<h2>Posts</h2>';
+        let output = '<h2 class="text-xl bold py-5">Posts</h2>';
+        output += '<div class="grid grid-cols-4 gap-4 mt-2">';
         data.forEach(post => {
             output += `
-                <div>
-                    <h3>${post.title}</h3>
+                <div mx-auto my-auto rounded-xl bg-purple-100>
+                    <h3 text-blue>${post.title}</h3>
                     <p>${post.body}</p>
                 </div>
             `;
         });
+        output += '</div>';
         document.querySelector('#output').innerHTML = output;
     })
 }
