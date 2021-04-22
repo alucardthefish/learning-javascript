@@ -39,9 +39,9 @@ function getPosts() {
         output += '<div class="grid grid-cols-4 gap-4 mt-2">';
         data.forEach(post => {
             output += `
-                <div mx-auto my-auto rounded-xl bg-purple-100>
-                    <h3 text-blue>${post.title}</h3>
-                    <p>${post.body}</p>
+                <div class="mx-4 my-4 py-2 px-2 rounded-xl bg-purple-100">
+                    <h3 class="text-xl text-purple-600 bold">${post.title}</h3>
+                    <p class="py-4">${post.body}</p>
                 </div>
             `;
         });
